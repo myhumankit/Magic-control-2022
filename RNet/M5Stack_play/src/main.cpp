@@ -458,9 +458,9 @@ void loop () {
       M5.lcd.println("Stop");
     } else {
       CAN0.setMode(MCP_NORMAL);
+	  M5.lcd.println("Start");
       local = true;
       start = true;
-      M5.lcd.println("Start");
     }
   }
 
